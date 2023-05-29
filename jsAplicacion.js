@@ -5,7 +5,7 @@ window.onload = function() {
   var socketStatus = document.getElementById('status');
   var closeBtn = document.getElementById('close');
 
-  var socket = new WebSocket('ws://node-red-qqsrq-2020-11-23.mybluemix.net/ws/mywebsocket');
+  var socket = new WebSocket('ws://node-red-qqsrq-2023-05-23.mybluemix.net/ws/mywebsocket');
 
   socket.onerror = function(error) {
     console.log('Error de WebSocket: ' + error);
