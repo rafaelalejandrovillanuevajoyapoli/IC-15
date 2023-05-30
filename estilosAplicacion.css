@@ -64,10 +64,10 @@ ul li span {
 }
 
 .sent {
-  background-color: #F7F7F7;
+  background-color: #cf5151;
 }
 
-.received {}
+/*.received {}*/
 
 #message-form {
   margin-top: 1.5rem;
